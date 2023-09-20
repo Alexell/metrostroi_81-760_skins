@@ -1,0 +1,7 @@
+	"VertexLitGeneric"
+{
+	"$basetexture" "models/metrostroi_train/81-760/shelk_2021"
+	"$model" "1"
+	"$phong" "1"
+ 
+}
