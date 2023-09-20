@@ -1,77 +1,21 @@
-------------------------------------------------------------------------
+------------------------------------------------------------------------------
+--                Скины для составов типа 81-760 и 81-760a                  --
+--                             Автор: h0w3rS                                --
+--                        https://github.com/h0w3rS                         --
+------------------------------------------------------------------------------
 
---[[
-
-						Пак перекрасок для составов типа 81-760, 81-760a
-				
-					
-					██╗░░██╗░█████╗░░██╗░░░░░░░██╗██████╗░██████╗░░██████╗
-					██║░░██║██╔══██╗░██║░░██╗░░██║╚════██╗██╔══██╗██╔════╝
-					███████║██║░░██║░╚██╗████╗██╔╝░█████╔╝██████╔╝╚█████╗░
-					██╔══██║██║░░██║░░████╔═████║░░╚═══██╗██╔══██╗░╚═══██╗
-					██║░░██║╚█████╔╝░░╚██╔╝░╚██╔╝░██████╔╝██║░░██║██████╔╝
-					╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░╚═╝░░╚═════╝░╚═╝░░╚═╝╚═════╝░
-					
-					
-									by h0w3rS | 2021
-						
-									
-
-
-				p.s сделанно максимально колхозно, чего собственно и добивался:)
-				
---]]
-
-------------------------------------------------------------------------
-
-
--- Окраски для обычной оки 81-760
-
-Metrostroi.AddSkin("train","oldcolor",{
-    name = "STL / KalL Metal",
-    typ = "81-760",
-    textures = {
-	
-		["hull"] = "models/metrostroi_train/81-760/hull",
-		["medium_vag"] = "models/metrostroi_train/81-760/medium_vag_metallic",
-		["int_0"] = "models/metrostroi_train/81-760/int_metallic",
-		
-    }
-	
-})
-
-Metrostroi.AddSkin("train","oldColorNewDecals",{
-    name = "STL / KalL Metal (2022)",
-    typ = "81-760",
-    textures = {
-	
-		["hull"] = "models/metrostroi_train/81-760/hull_2022",
-		["medium_vag"] = "models/metrostroi_train/81-760/medium_vag_metallic",
-		["int_0"] = "models/metrostroi_train/81-760/int_metallic",
-		["glass_shelk"] = "models/metrostroi_train/81-760/shelk_2021",
-		
-    }
-})
-
-Metrostroi.AddSkin("train","expirimental",{
-    name = "Опытный",
-    typ = "81-760",
-    textures = {
-		["hull"] = "models/metrostroi_train/81-760/hull_old",
-		["medium_vag"] = "models/metrostroi_train/81-760/medium_vag_metallic",
-		["int_0"] = "models/metrostroi_train/81-760/int_metallic",
-    }
-})
+-- Окраски кузова для 81-760
 Metrostroi.AddSkin("train","stlOka",{
-    name = "STL",
+    name = "СТЛ",
     typ = "81-760",
     textures = {
 		["hull"] = "models/metrostroi_train/81-760/hull",
 		["int_0"] = "models/metrostroi_train/81-760/int_plastic",
     }
 })
+
 Metrostroi.AddSkin("train","stlOkaNewDecals",{
-    name = "STL (2022)",
+    name = "СТЛ (2022)",
     typ = "81-760",
     textures = {
 	
@@ -82,7 +26,7 @@ Metrostroi.AddSkin("train","stlOkaNewDecals",{
 })
 
 Metrostroi.AddSkin("train","bklOka",{
-    name = "BKL",
+    name = "БКЛ",
     typ = "81-760",
     textures = {
 		["console"] = "models/metrostroi_train/81-760/console_bkl",
@@ -91,8 +35,9 @@ Metrostroi.AddSkin("train","bklOka",{
 		["int_0"] = "models/metrostroi_train/81-760/int_plastic",
     }
 })
+
 Metrostroi.AddSkin("train","bklOkaNewDecals",{
-    name = "BKL (2022)",
+    name = "БКЛ (2022)",
     typ = "81-760",
     textures = {
 		["console"] = "models/metrostroi_train/81-760/console_bkl",
@@ -103,23 +48,23 @@ Metrostroi.AddSkin("train","bklOkaNewDecals",{
     }
 })
 
-Metrostroi.AddSkin("train","poexaliKRL",{
-    name = "Поехали! (KRL 2022)",
-    typ = "81-760",
-    textures = {
-		["hull"] = "models/metrostroi_train/81-760/hull_poexali",
-		["int_0"] = "models/metrostroi_train/81-760/int_plastic",
-		["glass_shelk"] = "models/metrostroi_train/81-760/shelk_2021",
-    }
-})
-
 Metrostroi.AddSkin("train","mosbrendOka",{
-    name = "MosBrend",
+    name = "МосБренд",
     typ = "81-760",
     textures = {
 		["hull"] = "models/metrostroi_train/81-760/hull_mosbrend",
 		["medium_vag"] = "models/metrostroi_train/81-760/medium_vag_mosbrend",
 		["int_0"] = "models/metrostroi_train/81-760/int_plastic",
+    }
+})
+
+Metrostroi.AddSkin("train","expirimental",{
+    name = "75 лет Мосметро",
+    typ = "81-760",
+    textures = {
+		["hull"] = "models/metrostroi_train/81-760/hull_old",
+		["medium_vag"] = "models/metrostroi_train/81-760/medium_vag_metallic",
+		["int_0"] = "models/metrostroi_train/81-760/int_metallic",
     }
 })
 
@@ -133,7 +78,7 @@ Metrostroi.AddSkin("train","ladogaOka",{
     }
 })
 
--- Окраски для баклана 81-760a
+-- Окраски кузова для 81-760a
 Metrostroi.AddSkin("train","standartBaklan",{
     name = "Стандартный",
     typ = "81-760a",
@@ -150,8 +95,8 @@ Metrostroi.AddSkin("train","kolhozBaklan",{
     }
 })
 
--- Перекраски для пультов 81-760
 
+-- Окраски пульта для 81-760
 Metrostroi.AddSkin("cab","standartConsole",{
     name = "Стандартный",
     typ = "81-760",
@@ -160,43 +105,26 @@ Metrostroi.AddSkin("cab","standartConsole",{
     }
 })
 
-Metrostroi.AddSkin("cab","oldCPOConsole",{
-    name = "ЦПО (Старый образец)",
-    typ = "81-760",
-    textures = {
-		["console"] = "models/metrostroi_train/81-760/console_oldCPO",
-    }
-})
-
-Metrostroi.AddSkin("cab","newCPOConsole",{
-    name = "ЦПО (Новый образец)",
-    typ = "81-760",
-    textures = {
-		["console"] = "models/metrostroi_train/81-760/console_newCPO",
-    }
-})
-
 Metrostroi.AddSkin("cab","kolxozOneConsole",{
-    name = "Колхоз 1",
+    name = "Вариант 1",
     typ = "81-760",
     textures = {
 		["console"] = "models/metrostroi_train/81-760/console_kolxozOne",
     }
 })
 
-Metrostroi.AddSkin("cab","kolxozTwoConsole",{
-    name = "Колхоз 2",
-    typ = "81-760",
-    textures = {
-		["console"] = "models/metrostroi_train/81-760/console_kolxozTwo",
-    }
-})
-
 Metrostroi.AddSkin("cab","kolxozThreeConsole",{
-    name = "Колхоз 3",
+    name = "Вариант 2",
     typ = "81-760",
     textures = {
 		["console"] = "models/metrostroi_train/81-760/console_kolxozThree",
     }
 })
 
+Metrostroi.AddSkin("cab","oldCPOConsole",{
+    name = "Вариант 3",
+    typ = "81-760",
+    textures = {
+		["console"] = "models/metrostroi_train/81-760/console_oldCPO",
+    }
+})
