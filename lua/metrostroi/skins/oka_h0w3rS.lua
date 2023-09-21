@@ -5,7 +5,7 @@
 ------------------------------------------------------------------------------
 
 -- Окраски кузова для 81-760
-Metrostroi.AddSkin("train","stlOka",{
+Metrostroi.AddSkin("train","STL",{
     name = "СТЛ",
     typ = "81-760",
     textures = {
@@ -25,7 +25,7 @@ Metrostroi.AddSkin("train","stlOkaNewDecals",{
     }
 })
 
-Metrostroi.AddSkin("train","bklOka",{
+Metrostroi.AddSkin("train","BKL",{
     name = "БКЛ",
     typ = "81-760",
     textures = {
@@ -79,7 +79,7 @@ Metrostroi.AddSkin("train","ladogaOka",{
 })
 
 -- Окраски кузова для 81-760a
-Metrostroi.AddSkin("train","standartBaklan",{
+Metrostroi.AddSkin("train","760A",{
     name = "Стандартный",
     typ = "81-760a",
     textures = {
